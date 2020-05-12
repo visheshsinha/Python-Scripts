@@ -20,8 +20,8 @@ class Gen:
         self.last += 1
         return rv
 
-
 # g = Gen(1000000)
+
 """
 while True:
     try:
@@ -30,11 +30,9 @@ while True:
         break
 """
 
-
 def gen(n):
     for j in range(n):
         yield j ** 2
-
 
 g = gen(1000)
 
